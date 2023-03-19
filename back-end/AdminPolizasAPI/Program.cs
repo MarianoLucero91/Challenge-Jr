@@ -18,6 +18,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddTransient(typeof(ICoberturaRepository), typeof(CoberturaRepository));
+builder.Services.AddTransient(typeof(IPolizaRepository), typeof(PolizaRepository));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
