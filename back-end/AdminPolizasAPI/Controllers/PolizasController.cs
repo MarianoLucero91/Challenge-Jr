@@ -20,7 +20,16 @@ namespace AdminPolizasAPI.Controllers
         public ActionResult<IEnumerable<Poliza>> GetPolizas()
         {
             var polizas = _repository.GetAll();
-            return Ok(polizas);
+            return Ok(polizas.Select(p => new PolizaResponseDto
+            {
+                Id = p.Id,
+                Nombre = p.Nombre,
+                PolizasCoberturas = p.PolizasCoberturas.Select(pc => new PolizasCoberturasDto
+                {
+                    CoberturaId = pc.CoberturaId,
+                    MontoAsegurado = pc.MontoAsegurado
+                }).ToList()
+            }));
         }
 
         [HttpGet("{id}")]

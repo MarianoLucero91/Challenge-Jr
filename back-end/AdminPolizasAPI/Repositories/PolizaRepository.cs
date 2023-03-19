@@ -15,7 +15,7 @@ namespace AdminPolizasAPI.Repositories
 
         public List<Poliza> GetAll()
         {
-            return _dbContext.Polizas.ToList();
+            return _dbContext.Polizas.Include(p => p.PolizasCoberturas).ToList();
         }
 
         public Poliza? GetPolizaById(int id)

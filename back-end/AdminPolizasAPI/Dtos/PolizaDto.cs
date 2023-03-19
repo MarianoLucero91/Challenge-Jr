@@ -28,7 +28,4 @@ namespace AdminPolizasAPI.Dtos
 
         public List<PolizasCoberturasDto> PolizasCoberturas { get; set; }
     }
-
-
-    
 }
