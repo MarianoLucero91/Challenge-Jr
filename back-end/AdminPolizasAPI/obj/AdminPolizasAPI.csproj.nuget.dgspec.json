@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mariano\\OneDrive\\Escritorio\\Challenge JR\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj": {}
+    "C:\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mariano\\OneDrive\\Escritorio\\Challenge JR\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj": {
+    "C:\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mariano\\OneDrive\\Escritorio\\Challenge JR\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj",
+        "projectUniqueName": "C:\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj",
         "projectName": "AdminPolizasAPI",
-        "projectPath": "C:\\Users\\Mariano\\OneDrive\\Escritorio\\Challenge JR\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj",
-        "packagesPath": "C:\\Users\\Mariano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mariano\\OneDrive\\Escritorio\\Challenge JR\\Challenge-Jr\\back-end\\AdminPolizasAPI\\obj\\",
+        "projectPath": "C:\\Challenge-Jr\\back-end\\AdminPolizasAPI\\AdminPolizasAPI.csproj",
+        "packagesPath": "C:\\Users\\flucero\\.nuget\\packages\\",
+        "outputPath": "C:\\Challenge-Jr\\back-end\\AdminPolizasAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Mariano\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\flucero\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://azure-devops-01/tfs/GP-TPC/_packaging/GlobalProcessing/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -77,7 +78,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -89,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

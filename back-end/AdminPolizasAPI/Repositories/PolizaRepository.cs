@@ -44,7 +44,16 @@ namespace AdminPolizasAPI.Repositories
 
             if (poliza != null)
             {
+                
+
+                if (model.PolizasCoberturas.Any())
+                {
+                    _dbContext.PolizasCoberturas.RemoveRange(poliza.PolizasCoberturas);
+                   // _dbContext.PolizasCoberturas.AddRange(model.PolizasCoberturas);
+                }
+
                 poliza.Nombre = model.Nombre;
+                poliza.PolizasCoberturas = model.PolizasCoberturas;
 
                 _dbContext.Polizas.Update(poliza);
                 _dbContext.SaveChanges();
